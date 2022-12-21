@@ -1,0 +1,193 @@
+*{
+    margin: 0; 
+    Padding: 0;
+    font-family:Helvetica; 
+
+}
+body{
+    background:#F20505;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#e3e3e3; 
+    padding: 5px 2%;
+}
+.logo{
+    width: 90px;
+}
+.nav-left, .nav-right{
+    display: flex;
+    align-items: center; 
+   
+}
+.text{
+    padding: 10px;
+}
+.box { 
+    background-color:#e3e3e3;
+    box-shadow: 10px 10px 13px rgba(24, 23, 23, 0.1);
+    border-radius: 40px; 
+    height: 45px;
+    width: 120px;
+    padding: 12px;  
+  } 
+.box2 {
+  padding-top: 20px;
+
+}
+.post {
+    margin-bottom: 20px;
+    padding: 10px;
+    align-items: center; 
+}
+
+.post-header {
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center; 
+}
+
+.post-body {
+    margin-top: 10px;
+    font-size: 14px;
+    align-items: center;
+    height: 100px;
+    width: 100;
+    
+}
+
+.post-footer {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #888;
+    align-items: center;
+    height: 200px;
+    width: 50%;
+
+}
+  .recent-post {
+    width: 400px;
+    margin: 1 40px 40px 1;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color:#e3e3e3;
+    box-shadow: 10px 10px 13px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30px; 
+  }
+  
+  .recent-post img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .recent-post h3 {
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .recent-post p {
+    margin: 10px;
+    font-size: 14px;
+    text-align: justify;
+  }
+  .your_pofile img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  footer {
+    background-color: white;  /* Set the background color to white */
+    display: flex;
+    justify-content: center;  /* Center the list */
+    position: bottom; 
+    left: 0;  
+    right: 0;  
+    bottom: 0;
+    width: 100%; 
+    height: 200%;
+    overflow: hidden;
+  }
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+  
+.fixbottom {
+    background-color: white;
+    position: static;
+} 
+/* Style the form and input field */
+form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: red;
+}
+
+/* Add some padding and margin to the comment box */
+.comment-box {
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 1rem;
+}
+
+.comments {
+  display: none; /* Hide the comments by default */
+}
+
+
+.read-more-button {
+  display: inline-block;
+  padding: 8px 20px;
+  border: 30px;
+  border-color: #F20505;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255); /* Change the background color to red */
+  color: rgb(255, 0, 0);
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin: 20px 0; /* Add a top and bottom margin of 20px */
+  text-align: center; /* Center the button */
+}
+
+.read-more-button:hover {
+  background-color: darkred;
+}
+.whitebackground {
+  background-color: white;
+}
